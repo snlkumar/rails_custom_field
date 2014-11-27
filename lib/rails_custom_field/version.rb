@@ -1,0 +1,3 @@
+module RailsCustomField
+  VERSION = "0.0.1"
+end
