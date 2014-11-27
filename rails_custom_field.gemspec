@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RailsCustomField::VERSION
   spec.authors       = ["sunil kumar"]
   spec.email         = ["snlkumar447@gmail.com"]
-  spec.summary       = %q{TODO: This gem is used for creating the custom field as a column name into the database table.This gem will create the migration and will update the schema as well.You don't need to run rake db:migrate.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{This gem is used for creating the custom field as a column name into the database table.This gem will create the migration and will update the schema as well.You don't need to run rake db:migrate.}
+  spec.description   = %q{Write a longer description. Optional.}
   spec.homepage      = "https://github.com/snlkumar/rails_custom_field"
   spec.license       = "Sunil Kumar"
 
