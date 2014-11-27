@@ -1,6 +1,6 @@
 require 'active_support/core_ext/string'
 require 'rake'
-module RailsCustomField
+class RailsCustomField
   def initialize(model,field_name,field_type)
 	table_name="#{model}".downcase!	
 	`rails g migration add_#{field_name}_to_#{table_name.pluralize} #{field_name}:#{field_type}`      
